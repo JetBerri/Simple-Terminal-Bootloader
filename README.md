@@ -11,4 +11,4 @@ nasm -f bin ./bootloader.asm - o ./bootloader.bin
 qemu-system-x86_64 -hda ./bootloader.bin
 ```
 
-This commands are just for linux!
+(QEmu and NASM are perfectly runnable and installable in Windows)
